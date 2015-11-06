@@ -1,4 +1,4 @@
-== README
+**README
 
 This is my first solo-blog for production. I will create a blog page with the following components.
 
