@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+entry_one:
+  title: "How to Blog"
+  author: "j@example.com"
+  blog_entry: "Vegan literally fanny pack farm-to-table, before they sold out retro keytar disrupt ugh cred leggings tattooed gastropub. Street art forage selfies pabst, you probably haven't heard of them ramps quinoa literally salvia mustache freegan pug yuccie. You probably haven't heard of them pug kale chips, kombucha crucifix slow-carb hoodie retro readymade truffaut intelligentsia. Vegan banjo pinterest asymmetrical organic"
+
+entry_two:
+  title: "How Not to Blog"
+  author: "j@example.com"
+  blog_entry: "Wayfarers pork belly selvage pabst, trust fund venmo hoodie direct trade pitchfork. Bitters fashion axe plaid, pinterest cardigan kogi cornhole shabby chic semiotics lo-fi asymmetrical. Bespoke scenester pop-up ennui. Mixtape pickled cred, franzen mlkshk artisan meditation freegan austin brunch. Brunch!"
