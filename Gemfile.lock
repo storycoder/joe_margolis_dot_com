@@ -210,6 +210,7 @@ DEPENDENCIES
   jquery-rails
   minitest-reporters
   pg
+  pry
   rails (= 4.2.3)
   rb-fsevent
   sass-rails (~> 5.0)
