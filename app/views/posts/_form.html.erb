@@ -1,19 +1,13 @@
 <%= form_for @post do |f| %>
- 
-
-
-
-	<p>
-	 <%= f.label :title %><br>
+	<div class="form-group"><%= f.label :title %><br>
 	 <%= f.text_field :title %>
-	</p>
-	<p>
-	 <%= f.label :author %> <br>
-	 <%= f.text_field :author %>
-	</p>
-	<p>
+	</div>
+	<div class="form-group">
 	 <%= f.label :blog_entry %> <br>
 	 <%= f.text_area :blog_entry %>
-	</p>
+	</div>
+	<div class="form-group cant-see-me">
+		<%= f.number_field :user_id, value: current_user.id %>
+	</div>
 	<%= f.submit %>
 <% end %>

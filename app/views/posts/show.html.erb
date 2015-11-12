@@ -1,8 +1,8 @@
 <div id="post_content">
 	<h1><%= @post.title %></h1>
-	<p class="author"><strong>by <%= @post.author %></strong></p>
+	<p class="author"><strong>by <%= @post.user.name %></strong></p>
 	<p><%= @post.blog_entry %></p>
 </div>
 <br>
-<%= link_to 'Back', posts_path %>
+<%= link_to 'Back', posts_path %> |
 <%= link_to 'Edit', edit_post_path %>

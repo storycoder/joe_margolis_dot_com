@@ -8,6 +8,6 @@ class PostTest < ActiveSupport::TestCase
   end
   
   should validate_presence_of(:title)
-  should validate_presence_of(:author)
   should validate_presence_of(:blog_entry)
+  should belong_to(:user)
 end
