@@ -16,5 +16,12 @@
  .cant-see-me {
  	display: none;
  }
+ .navbar a {
+ 	color: #fff;
+ }
+
+ .navbar a:hover {
+ 	color: initial;
+ }
 
 
